@@ -22,7 +22,7 @@ public class main {
 		jawn.setYearlyTuition(yearlyTuition);
 		jawn.setPercentIncrease(percentIncrease);
 		double money = jawn.TuitionCalculator();
-		System.out.println(money);
+		System.out.printf("Your total tuition is $%.2f", money);
 	}
 
 }
